@@ -36,14 +36,11 @@
         <el-form-item label="类型" prop="type">
           <el-input v-model.name="listForm.type"></el-input>
         </el-form-item>
-      </el-form>
-
-      <div slot="footer" class="dialog-footer">
         <el-form-item>
           <el-button @click="dialogFormVisible = false">取消</el-button>
           <el-button type="primary" @click="update">确定</el-button>
         </el-form-item>
-      </div>
+      </el-form>
     </el-dialog>
   </div>
 </template>
